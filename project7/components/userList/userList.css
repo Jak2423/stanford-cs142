@@ -1,0 +1,39 @@
+a {
+   text-decoration: none;
+}
+
+.list-item {
+   position: relative;
+}
+
+.bubble {
+   position: absolute;
+   right: 0;
+   display: flex;
+}
+
+.bubble  span{
+   font-weight: 500;
+   width: 30px;
+   height: 30px;
+   border-radius: 50%;
+   margin-right: 10px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bubble-photo {
+   background-color: #1DB954;
+}
+
+.bubble-commment {
+   background-color: rgb(239 68 68);
+   color: #000;
+}
+
+.upload-form {
+   display: flex;
+   align-items: center;
+   margin-bottom: 20px;
+}

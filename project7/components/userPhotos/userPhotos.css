@@ -1,0 +1,15 @@
+.photos-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   padding-block: 2.4rem;
+}
+
+.comment-section {
+   box-shadow: none !important;
+}
+
+.comment {
+   padding-top: 0 !important;
+}

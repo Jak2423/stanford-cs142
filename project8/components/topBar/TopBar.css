@@ -1,0 +1,22 @@
+.cs142-topbar-appBar {
+	height: 60;
+	justify-content: 'center';
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.title {
+	border-bottom: 1px solid #fff;
+}
+
+.right-bar {
+   display: flex;
+   gap: 1rem;
+}
+
+.logout-btn {
+   text-transform: capitalize !important;
+}

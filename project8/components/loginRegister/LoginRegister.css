@@ -1,0 +1,8 @@
+.login-section {
+   margin-bottom: 2rem;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
