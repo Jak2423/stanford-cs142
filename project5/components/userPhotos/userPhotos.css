@@ -1,0 +1,21 @@
+.photos-container {
+   position: relative;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
+   padding-block: 2.4rem;
+}
+
+.comment-section {
+   box-shadow: none !important;
+}
+
+.comment {
+   padding-top: 0 !important;
+}
+.checkbox {
+   position: absolute;
+   top: 5px;
+   left: 5px;
+}

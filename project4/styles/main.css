@@ -1,0 +1,45 @@
+/* This is a CSS style sheet for rules that should be applied over the
+   entire application.  We are not using the name prefix for these rules.  */
+
+/* class="container" - Sets some margins around the element so it is spaced
+                       from the top, bottom, and sides of the window. */
+
+.container {
+	padding: 40px 10px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.btn-switch {
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	background-color: #fff;
+	border: 2px solid #000;
+	border-radius: 10px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.btn-switch:hover {
+	border: 2px solid #ff4545;
+}
+
+.navigation {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 100px;
+	gap: 30px;
+}
+
+.navigation > a {
+	color: #000;
+	font-size: 2.4rem;
+	text-decoration: none;
+}
+.navigation > a:hover {
+	color: #ff4545;
+	text-decoration: underline;
+}

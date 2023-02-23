@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 40px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	animation-duration: 1s;
+	animation-name: slide;
+}
+
+.box {
+	width: 80px;
+	height: 130px;
+	background-image: linear-gradient(to bottom right, #121c84, #8278da);
+	border-left: dotted 10px #d0d0ff;
+	padding: 10px;
+	margin: 10px;
+	box-shadow: 10px 10px 5px rgb(0 0 0 / 0.5);
+}
+
+.box:hover {
+	background-image: linear-gradient(to bottom right, yellow, white);
+	color: goldenrod;
+	cursor: pointer;
+	scale: 1.1;
+	transition-duration: 500ms;
+}
+
+.item3 {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+}
+
+.item3:hover {
+	transform: translate(-15px, -15px);
+	scale: 1;
+	transition-timing-function: ease-in;
+	transition-duration: 200ms;
+}
+
+@keyframes slide {
+	from {
+		transform: translateY(-100px);
+	}
+
+	to {
+		transform: translateY(0);
+	}
+}
